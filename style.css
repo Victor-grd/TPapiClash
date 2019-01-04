@@ -1,9 +1,10 @@
 body{
-    background: #031A6D;
+    background-image: url('./img/clash.jpg');
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0;
+    font-family: 'Baloo Bhaijaan';
 }
 #buttonRandomDeck{
     height: 100px;
@@ -14,13 +15,32 @@ body{
     background: #A77A57;
     box-shadow: 0px 2px 4px black;
     width: 100vw;
-    height: 15vh;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: column
+}
+.cardsDeck{
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
 }
-
+.AverageElixir{
+    background: rgb(117, 86, 63);
+    width: 80vw;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Baloo Bhaijaan', cursive;
+    color: violet;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .card{
     height: 100px;
     width: 80px;
@@ -36,6 +56,28 @@ body{
 }
 .cardsStyle{
     margin-right: 15px;
+    margin-bottom: 15px;
     height: 100px;
     width: auto;
 }                                 
+
+
+
+
+.common{
+    box-shadow: 0px 1px 15px 3px lightblue;
+    border-radius: 6px;
+}
+.rare{
+    box-shadow: 0px 1px 15px 3px orange;
+    border-radius: 6px;
+}
+.epic{
+    box-shadow: 0px 1px 15px 3px violet;
+    border-radius: 6px;
+}
+
+.legendary{
+    width: 80.59px!important;
+    height: 100px!important;
+}
